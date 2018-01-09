@@ -1,0 +1,32 @@
+{
+  "name": "tcm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-html-linter": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "browser-sync": "^2.19.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-inline-images": "^1.2.6",
+    "gulp-notify": "^3.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.2",
+    "jshint": "^2.9.5",
+    "npm": "^5.6.0",
+    "postcss": "^6.0.14",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-nested": "^3.0.0",
+    "sugarss": "^1.0.1"
+  }
+}
