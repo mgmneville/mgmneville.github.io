@@ -1,5 +1,5 @@
 <!doctype html >
-<html xmlns="http://www.w3.org/1999/xhtml"  class="">
+<html xmlns="https://www.w3.org/1999/xhtml"  class="">
 <head>
 
 	
@@ -22,8 +22,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 
 <!--Add favorites icons-->
-<link rel="apple-touch-icon" href="_dm/s/rt/dist/img/favicon-57x57.png"/>
-	<link rel="icon" type="image/x-icon" href="_dm/s/rt/dist/img/site_favicon_16_1479946880884.ico"/>
+<link rel="apple-touch-icon" href="img/favicon-57x57.png"/>
+	<link rel="icon" type="image/x-icon" href="img/site_favicon_16_1479946880884.ico"/>
 	
 <!-- End favorite icons -->
 
@@ -46,7 +46,7 @@
 
 <!-- ========= CSS Section ========= -->
 <!-- Foundation CSS -->
-<link rel="stylesheet" type="text/css" href="_dm/s/rt/dist/css/d-css-foundation.min.css" />
+<link rel="stylesheet" type="text/css" href="css/d-css-foundation.min.css" />
 
 	
 <!-- Google Fonts Include -->
@@ -63,28 +63,28 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="_dm/s/rt/css/font-css/googlefonts.css">
+<link rel="stylesheet" type="text/css" href="css/font-css/googlefonts.css">
 
 
-<link rel="stylesheet" type="text/css" href="_dm/s/rt/dist/css/css-font-package.min.css" />
+<link rel="stylesheet" type="text/css" href="css/css-font-package.min.css" />
 
 
 <!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
-<link rel="stylesheet" type="text/css" href="_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css" />
+<link rel="stylesheet" type="text/css" href="css/d-css-runtime-desktop-one-package-new.min.css" />
 
 <!-- End of RT CSS Include -->
 
 
 
 <!-- Site CSS -->
-<link type="text/css" rel="stylesheet" href="_dm/s/rt/dist/css/2c68a985_1.min.css"/>
+<link type="text/css" rel="stylesheet" href="css/2c68a985_1.min.css"/>
 <style id="customWidgetStyle" type="text/css">
 
 </style>
 <style id="additionalGlobalCss" type="text/css"></style>
 
 <!-- Page CSS -->
-<link id="homeCssLink" type="text/css" rel="stylesheet" href="_dm/s/rt/dist/css/2c68a985_home_1.min.css"/>
+<link id="homeCssLink" type="text/css" rel="stylesheet" href="css/2c68a985_home_1.min.css"/>
 <style id="pagestyle" type="text/css"> 
 </style>
 
@@ -118,7 +118,7 @@
 
 /*! modernizr 3.5.0 (Custom Build) | MIT *
  * https://modernizr.com/download/?-cssvwunit-flexbox-flexboxlegacy-flexboxtweener-flexwrap-passiveeventlisteners-supports-svg-setclasses-cssclassprefix:dm- !*/
-!function(e,t,n){function r(e,t){return typeof e===t}function s(){var e,t,n,s,o,i,a;for(var l in w)if(w.hasOwnProperty(l)){if(e=[],t=w[l],t.name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(s=r(t.fn,"function")?t.fn():t.fn,o=0;o<e.length;o++)i=e[o],a=i.split("."),1===a.length?Modernizr[a[0]]=s:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=s),C.push((s?"":"no-")+a.join("-"))}}function o(e){var t=x.className,n=Modernizr._config.classPrefix||"";if(b&&(t=t.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(r,"$1"+n+"js$2")}Modernizr._config.enableClasses&&(t+=" "+n+e.join(" "+n),b?x.className.baseVal=t:x.className=t)}function i(e,t){return!!~(""+e).indexOf(t)}function a(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):b?t.createElementNS.call(t,"http://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function l(){var e=t.body;return e||(e=a(b?"svg":"body"),e.fake=!0),e}function f(e,n,r,s){var o,i,f,u,d="modernizr",p=a("div"),c=l();if(parseInt(r,10))for(;r--;)f=a("div"),f.id=s?s[r]:d+(r+1),p.appendChild(f);return o=a("style"),o.type="text/css",o.id="s"+d,(c.fake?c:p).appendChild(o),c.appendChild(p),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(t.createTextNode(e)),p.id=d,c.fake&&(c.style.background="",c.style.overflow="hidden",u=x.style.overflow,x.style.overflow="hidden",x.appendChild(c)),i=n(p,e),c.fake?(c.parentNode.removeChild(c),x.style.overflow=u,x.offsetHeight):p.parentNode.removeChild(p),!!i}function u(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(t,n,r){var s;if("getComputedStyle"in e){s=getComputedStyle.call(e,t,n);var o=e.console;if(null!==s)r&&(s=s.getPropertyValue(r));else if(o){var i=o.error?"error":"log";o[i].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else s=!n&&t.currentStyle&&t.currentStyle[r];return s}function p(t,r){var s=t.length;if("CSS"in e&&"supports"in e.CSS){for(;s--;)if(e.CSS.supports(u(t[s]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var o=[];s--;)o.push("("+u(t[s])+":"+r+")");return o=o.join(" or "),f("@supports ("+o+") { #modernizr { position: absolute; } }",function(e){return"absolute"==d(e,null,"position")})}return n}function c(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function v(e,t,s,o){function l(){u&&(delete P.style,delete P.modElem)}if(o=r(o,"undefined")?!1:o,!r(s,"undefined")){var f=p(e,s);if(!r(f,"undefined"))return f}for(var u,d,v,m,g,y=["modernizr","tspan","samp"];!P.style&&y.length;)u=!0,P.modElem=a(y.shift()),P.style=P.modElem.style;for(v=e.length,d=0;v>d;d++)if(m=e[d],g=P.style[m],i(m,"-")&&(m=c(m)),P.style[m]!==n){if(o||r(s,"undefined"))return l(),"pfx"==t?m:!0;try{P.style[m]=s}catch(h){}if(P.style[m]!=g)return l(),"pfx"==t?m:!0}return l(),!1}function m(e,t){return function(){return e.apply(t,arguments)}}function g(e,t,n){var s;for(var o in e)if(e[o]in t)return n===!1?e[o]:(s=t[e[o]],r(s,"function")?m(s,n||t):s);return!1}function y(e,t,n,s,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+T.join(i+" ")+i).split(" ");return r(t,"string")||r(t,"undefined")?v(a,t,s,o):(a=(e+" "+z.join(i+" ")+i).split(" "),g(a,t,n))}function h(e,t,r){return y(e,n,n,t,r)}var w=[],S={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){w.push({name:e,fn:t,options:n})},addAsyncTest:function(e){w.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=S,Modernizr=new Modernizr;var C=[],x=t.documentElement,b="svg"===x.nodeName.toLowerCase();Modernizr.addTest("svg",!!t.createElementNS&&!!t.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect);var _="Moz O ms Webkit",T=S._config.usePrefixes?_.split(" "):[];S._cssomPrefixes=T;var E={elem:a("modernizr")};Modernizr._q.push(function(){delete E.elem});var P={style:E.elem.style};Modernizr._q.unshift(function(){delete P.style});var z=S._config.usePrefixes?_.toLowerCase().split(" "):[];S._domPrefixes=z,S.testAllProps=y,S.testAllProps=h,Modernizr.addTest("flexbox",h("flexBasis","1px",!0)),Modernizr.addTest("flexboxlegacy",h("boxDirection","reverse",!0)),Modernizr.addTest("flexboxtweener",h("flexAlign","end",!0)),Modernizr.addTest("flexwrap",h("flexWrap","wrap",!0));var N="CSS"in e&&"supports"in e.CSS,j="supportsCSS"in e;Modernizr.addTest("supports",N||j);var A=S.testStyles=f;A("#modernizr { width: 50vw; }",function(t){var n=parseInt(e.innerWidth/2,10),r=parseInt(d(t,null,"width"),10);Modernizr.addTest("cssvwunit",r==n)}),Modernizr.addTest("passiveeventlisteners",function(){var t=!1;try{var n=Object.defineProperty({},"passive",{get:function(){t=!0}});e.addEventListener("test",null,n)}catch(r){}return t}),s(),o(C),delete S.addTest,delete S.addAsyncTest;for(var k=0;k<Modernizr._q.length;k++)Modernizr._q[k]();e.Modernizr=Modernizr}(window,document);
+!function(e,t,n){function r(e,t){return typeof e===t}function s(){var e,t,n,s,o,i,a;for(var l in w)if(w.hasOwnProperty(l)){if(e=[],t=w[l],t.name&&(e.push(t.name.toLowerCase()),t.options&&t.options.aliases&&t.options.aliases.length))for(n=0;n<t.options.aliases.length;n++)e.push(t.options.aliases[n].toLowerCase());for(s=r(t.fn,"function")?t.fn():t.fn,o=0;o<e.length;o++)i=e[o],a=i.split("."),1===a.length?Modernizr[a[0]]=s:(!Modernizr[a[0]]||Modernizr[a[0]]instanceof Boolean||(Modernizr[a[0]]=new Boolean(Modernizr[a[0]])),Modernizr[a[0]][a[1]]=s),C.push((s?"":"no-")+a.join("-"))}}function o(e){var t=x.className,n=Modernizr._config.classPrefix||"";if(b&&(t=t.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+n+"no-js(\\s|$)");t=t.replace(r,"$1"+n+"js$2")}Modernizr._config.enableClasses&&(t+=" "+n+e.join(" "+n),b?x.className.baseVal=t:x.className=t)}function i(e,t){return!!~(""+e).indexOf(t)}function a(){return"function"!=typeof t.createElement?t.createElement(arguments[0]):b?t.createElementNS.call(t,"https://www.w3.org/2000/svg",arguments[0]):t.createElement.apply(t,arguments)}function l(){var e=t.body;return e||(e=a(b?"svg":"body"),e.fake=!0),e}function f(e,n,r,s){var o,i,f,u,d="modernizr",p=a("div"),c=l();if(parseInt(r,10))for(;r--;)f=a("div"),f.id=s?s[r]:d+(r+1),p.appendChild(f);return o=a("style"),o.type="text/css",o.id="s"+d,(c.fake?c:p).appendChild(o),c.appendChild(p),o.styleSheet?o.styleSheet.cssText=e:o.appendChild(t.createTextNode(e)),p.id=d,c.fake&&(c.style.background="",c.style.overflow="hidden",u=x.style.overflow,x.style.overflow="hidden",x.appendChild(c)),i=n(p,e),c.fake?(c.parentNode.removeChild(c),x.style.overflow=u,x.offsetHeight):p.parentNode.removeChild(p),!!i}function u(e){return e.replace(/([A-Z])/g,function(e,t){return"-"+t.toLowerCase()}).replace(/^ms-/,"-ms-")}function d(t,n,r){var s;if("getComputedStyle"in e){s=getComputedStyle.call(e,t,n);var o=e.console;if(null!==s)r&&(s=s.getPropertyValue(r));else if(o){var i=o.error?"error":"log";o[i].call(o,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else s=!n&&t.currentStyle&&t.currentStyle[r];return s}function p(t,r){var s=t.length;if("CSS"in e&&"supports"in e.CSS){for(;s--;)if(e.CSS.supports(u(t[s]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var o=[];s--;)o.push("("+u(t[s])+":"+r+")");return o=o.join(" or "),f("@supports ("+o+") { #modernizr { position: absolute; } }",function(e){return"absolute"==d(e,null,"position")})}return n}function c(e){return e.replace(/([a-z])-([a-z])/g,function(e,t,n){return t+n.toUpperCase()}).replace(/^-/,"")}function v(e,t,s,o){function l(){u&&(delete P.style,delete P.modElem)}if(o=r(o,"undefined")?!1:o,!r(s,"undefined")){var f=p(e,s);if(!r(f,"undefined"))return f}for(var u,d,v,m,g,y=["modernizr","tspan","samp"];!P.style&&y.length;)u=!0,P.modElem=a(y.shift()),P.style=P.modElem.style;for(v=e.length,d=0;v>d;d++)if(m=e[d],g=P.style[m],i(m,"-")&&(m=c(m)),P.style[m]!==n){if(o||r(s,"undefined"))return l(),"pfx"==t?m:!0;try{P.style[m]=s}catch(h){}if(P.style[m]!=g)return l(),"pfx"==t?m:!0}return l(),!1}function m(e,t){return function(){return e.apply(t,arguments)}}function g(e,t,n){var s;for(var o in e)if(e[o]in t)return n===!1?e[o]:(s=t[e[o]],r(s,"function")?m(s,n||t):s);return!1}function y(e,t,n,s,o){var i=e.charAt(0).toUpperCase()+e.slice(1),a=(e+" "+T.join(i+" ")+i).split(" ");return r(t,"string")||r(t,"undefined")?v(a,t,s,o):(a=(e+" "+z.join(i+" ")+i).split(" "),g(a,t,n))}function h(e,t,r){return y(e,n,n,t,r)}var w=[],S={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,t){var n=this;setTimeout(function(){t(n[e])},0)},addTest:function(e,t,n){w.push({name:e,fn:t,options:n})},addAsyncTest:function(e){w.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=S,Modernizr=new Modernizr;var C=[],x=t.documentElement,b="svg"===x.nodeName.toLowerCase();Modernizr.addTest("svg",!!t.createElementNS&&!!t.createElementNS("https://www.w3.org/2000/svg","svg").createSVGRect);var _="Moz O ms Webkit",T=S._config.usePrefixes?_.split(" "):[];S._cssomPrefixes=T;var E={elem:a("modernizr")};Modernizr._q.push(function(){delete E.elem});var P={style:E.elem.style};Modernizr._q.unshift(function(){delete P.style});var z=S._config.usePrefixes?_.toLowerCase().split(" "):[];S._domPrefixes=z,S.testAllProps=y,S.testAllProps=h,Modernizr.addTest("flexbox",h("flexBasis","1px",!0)),Modernizr.addTest("flexboxlegacy",h("boxDirection","reverse",!0)),Modernizr.addTest("flexboxtweener",h("flexAlign","end",!0)),Modernizr.addTest("flexwrap",h("flexWrap","wrap",!0));var N="CSS"in e&&"supports"in e.CSS,j="supportsCSS"in e;Modernizr.addTest("supports",N||j);var A=S.testStyles=f;A("#modernizr { width: 50vw; }",function(t){var n=parseInt(e.innerWidth/2,10),r=parseInt(d(t,null,"width"),10);Modernizr.addTest("cssvwunit",r==n)}),Modernizr.addTest("passiveeventlisteners",function(){var t=!1;try{var n=Object.defineProperty({},"passive",{get:function(){t=!0}});e.addEventListener("test",null,n)}catch(r){}return t}),s(),o(C),delete S.addTest,delete S.addAsyncTest;for(var k=0;k<Modernizr._q.length;k++)Modernizr._q[k]();e.Modernizr=Modernizr}(window,document);
 </script>
 
 
@@ -158,7 +158,7 @@ var build = "2018-01-07T10_36_25";
 
 </script>
 <!-- Load jQuery -->
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!-- End Load jQuery -->
 
 
@@ -188,7 +188,7 @@ rtCommonProps["isCoverage.test"]=false;
 rtCommonProps["common.mapsProvider"]='mapbox';
 rtCommonProps["common.geocodeProvider"]='here';
 </script>
-<script src="_dm/s/rt/dist/scripts/d-js-runtime-one-package.min.js%3Fversion=2018-01-07T10_36_25" ></script>
+<script src="scripts/d-js-runtime-one-package.min.js%3Fversion=2018-01-07T10_36_25" ></script>
 
 
 <script type="text/javascript">
@@ -204,9 +204,9 @@ rtCommonProps["common.geocodeProvider"]='here';
 
 
 
-<script src="_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-package.min.js%3Fversion=2018-01-07T10_36_25" ></script>
+<script src="scripts/d-js-one-runtime-layouts-package.min.js%3Fversion=2018-01-07T10_36_25" ></script>
 
-<script src="_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-desktop.min.js%3Fversion=2018-01-07T10_36_25" ></script>
+<script src="scripts/d-js-one-runtime-layouts-desktop.min.js%3Fversion=2018-01-07T10_36_25" ></script>
 
 <script>jQuery.DM.updateWidthAndHeight();
 $(window).resize(function() {jQuery.DM.updateWidth();});
@@ -280,7 +280,7 @@ $(document).resize(function() {jQuery.DM.updateWidth();});
 <div class="dm_wrapper standard-var5 widgetStyle-3 standard"> 
  <div dmwrapped="true" id="1651065671" class="dm-home-page" themewaschanged="true"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-home hasStickyHeader hasAnimations dmPageBody d-page-1989995030 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1989995030" data-buttonstyle="FLAT_SOFT" data-soch="true" data-background-size="cover" data-background-attachment="fixed" data-background-repeat="no-repeat" data-background-position="50% 0%" data-background-hide-inner="true" data-background-fullbleed="false" data-background-parallax-selector=".dmSectionParallex" data-background-parallax-speed="0.2"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None"></ul> 
  <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack" id="1551526899"> <div class="dmRespRow u_1632588036 fullBleedChanged fullBleedMode" style="text-align: center;" id="1632588036"> <div class="dmRespColsWrapper u_1520861361" id="1520861361"> <div class="dmRespCol small-12 u_1453690571 medium-4 large-4" id="1453690571"> <span id="1021238339"></span> 
- <div class="u_1693456759 imageWidget" editablewidget="true" data-widget-type="image" id="1693456759"><img src="_dm/s/rt/dist/img/logo.png" dm_changed="true" class="u_1724771997" onerror="handleImageLoadError(this)"/></div> 
+ <div class="u_1693456759 imageWidget" editablewidget="true" data-widget-type="image" id="1693456759"><img src="img/logo.png" dm_changed="true" class="u_1724771997" onerror="handleImageLoadError(this)"/></div> 
 </div> 
  <div class="dmRespCol u_1661606757 small-12 medium-4 large-4" id="1661606757"> <span id="1386034136" class="u_1386034136"></span> 
  <div class="u_1343520298 default dmLinksMenu desktopNavWrapper" id="1343520298" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-nav-structure="HORIZONTAL" data-show-vertical-sub-items="HOVER" data-items="4" data-links-level="0"> <ul class="dmNavWrapper dmn menuContainer "> <li class=" desktopTopNav navListLi navButtonLi    navItemSelectedServer "> <a href="home.html" class="dmUDNavigationItem_00 " target="" data-target-page-alias=""> <span class="navItemText ">HOME</span> 
@@ -542,7 +542,7 @@ $.each(_dm_insite, function(idx, rule) {
 
                 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
 
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
                 <!-- element will get class pswp__preloader--active when preloader is running -->
                 <div class="pswp__preloader">
                     <div class="pswp__preloader__icn">
@@ -611,7 +611,7 @@ setSmartSiteCookies();
     $.extend(Parameters,{
         AjaxContainer : "div.dmBody",
         WrappingContainer : "div.dmOuter",
-        HomeUrl : "http://www.michaelnevilleplumbing.com/",
+        HomeUrl : "https://www.michaelnevilleplumbing.com/",
         AccountUUID: "8a14db67dcc943389ef0dd8efb0705e9",
         SiteAlias : "2c68a985",
         SiteId : "820603",
@@ -660,7 +660,7 @@ setSmartSiteCookies();
     $.extend(Parameters.NavigationAreaParams,{
         ShowBackToHomeOnInnerPages : true,
         NavbarSize : 4,
-        NavbarLiveHomePage : "http://www.michaelnevilleplumbing.com/",
+        NavbarLiveHomePage : "https://www.michaelnevilleplumbing.com/",
         BlockContainerSelector : ".dmBody",
         NavbarSelector : "#dmNav:has(a)",
         SubNavbarSelector : "#subnav_main"
